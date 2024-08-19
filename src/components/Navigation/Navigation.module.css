@@ -1,0 +1,28 @@
+.nav {
+  background-color: #ff8945;
+  border-radius: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.link {
+  padding: 10px 15px;
+  color: #000000;
+  overflow: hidden;
+  transition: all 0.2s ease;
+
+  &:hover {
+    border-radius: 10px;
+    background-color: #ffffff35;
+    transform: scale(1.05);
+  }
+}
+
+.active {
+  background-color: #fff;
+  border-radius: 10px;
+
+  &:hover {
+    background-color: #fff;
+  }
+}
